@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WindowFactoryModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Color">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Material">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaterialTypeId" Type="int" />
+    <Property Name="CountryId" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MaterialList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaterialId" Type="int" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="MaterialType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="QuantityType" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Offer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="SupplierId" Type="int" />
+    <Property Name="CompanyName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MateriaId" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="DeliveryDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderNumber" Type="int" Nullable="false" />
+    <Property Name="CustomerId" Type="int" Nullable="false" />
+    <Property Name="ManagerId" Type="int" Nullable="false" />
+    <Property Name="TotalPrice" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Paid" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="DateCreate" Type="datetime" />
+    <Property Name="DateComplited" Type="datetime" />
+    <Property Name="ApproximateDateComplite" Type="date" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderId" Type="int" Nullable="false" />
+    <Property Name="PayerId" Type="int" />
+    <Property Name="Paid" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ColorId" Type="int" Nullable="false" />
+    <Property Name="OrderId" Type="int" />
+    <Property Name="EngineerId" Type="int" Nullable="false" />
+    <Property Name="Height" Type="int" />
+    <Property Name="Width" Type="int" />
+    <Property Name="DateCreate" Type="datetime" />
+    <Property Name="DateComplite" Type="datetime" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="SalaryList">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkerId" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Salary" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Storage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaterialId" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="SupplyItem">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MaterialId" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="CreationDate" Type="date" />
+    <Property Name="СompletionDate" Type="date" />
+    <Property Name="OfferId" Type="int" />
+    <Property Name="SypplyOrderId" Type="int" />
+  </EntityType>
+  <EntityType Name="SupplyOrder">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderNumber" Type="int" Nullable="false" />
+    <Property Name="DateCreate" Type="datetime" />
+    <Property Name="DateComplite" Type="datetime" />
+    <Property Name="ManagerId" Type="int" />
+  </EntityType>
+  <EntityType Name="Worker">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PersonId" Type="int" />
+    <Property Name="TypeId" Type="int" />
+    <Property Name="PassWord" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WorkerType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'WindowFactory.dbo.vMaterial' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="MaterialTypeId" />
+      <PropertyRef Name="MaterialType" />
+      <PropertyRef Name="Country" />
+      <PropertyRef Name="QuantityType" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="MaterialTypeId" Type="int" Nullable="false" />
+    <Property Name="MaterialType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Country" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="QuantityType" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'WindowFactory.dbo.vSupplyItem' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vSupplyItem">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="MaterialTypeId" />
+      <PropertyRef Name="CountryName" />
+      <PropertyRef Name="MaterialType" />
+      <PropertyRef Name="QuantityType" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="CreationDate" Type="date" />
+    <Property Name="OfferId" Type="int" />
+    <Property Name="SypplyOrderId" Type="int" />
+    <Property Name="MaterialName" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaterialTypeId" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="CountryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="MaterialType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="QuantityType" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'WindowFactory.dbo.vWorker' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vWorker">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Surname" />
+      <PropertyRef Name="PhoneNumber" />
+      <PropertyRef Name="WokerType" />
+      <PropertyRef Name="PassWord" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="WokerType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PassWord" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Material__Countr__48CFD27E">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Material__Materi__47DBAE45">
+    <End Role="MaterialType" Type="Self.MaterialType" Multiplicity="0..1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MaterialType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="MaterialTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MaterialL__Mater__4E88ABD4">
+    <End Role="Storage" Type="Self.Storage" Multiplicity="0..1" />
+    <End Role="MaterialList" Type="Self.MaterialList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Storage">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MaterialList">
+        <PropertyRef Name="MaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MaterialL__Produ__4F7CD00D">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="MaterialList" Type="Self.MaterialList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="MaterialList">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Offer__MateriaId__5812160E">
+    <End Role="Material" Type="Self.Material" Multiplicity="0..1" />
+    <End Role="Offer" Type="Self.Offer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Offer">
+        <PropertyRef Name="MateriaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Offer__SupplierI__571DF1D5">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Offer" Type="Self.Offer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Offer">
+        <PropertyRef Name="SupplierId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order__CustomerI__31EC6D26">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="CustomerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Order__ManagerId__32E0915F">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="ManagerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payment__OrderId__37A5467C">
+    <End Role="Order" Type="Self.Order" Multiplicity="1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payment__PayerId__38996AB5">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="PayerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__ColorId__3E52440B">
+    <End Role="Color" Type="Self.Color" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Color">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ColorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__Enginee__403A8C7D">
+    <End Role="Worker" Type="Self.Worker" Multiplicity="1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="EngineerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__OrderId__3F466844">
+    <End Role="Order" Type="Self.Order" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="OrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SalaryLis__Worke__2F10007B">
+    <End Role="Worker" Type="Self.Worker" Multiplicity="0..1" />
+    <End Role="SalaryList" Type="Self.SalaryList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SalaryList">
+        <PropertyRef Name="WorkerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Storage__Materia__4BAC3F29">
+    <End Role="Material" Type="Self.Material" Multiplicity="0..1" />
+    <End Role="Storage" Type="Self.Storage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Storage">
+        <PropertyRef Name="MaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SupplyIte__Mater__5AEE82B9">
+    <End Role="Material" Type="Self.Material" Multiplicity="0..1" />
+    <End Role="SupplyItem" Type="Self.SupplyItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SupplyItem">
+        <PropertyRef Name="MaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SupplyIte__Offer__5DCAEF64">
+    <End Role="Offer" Type="Self.Offer" Multiplicity="0..1" />
+    <End Role="SupplyItem" Type="Self.SupplyItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Offer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SupplyItem">
+        <PropertyRef Name="OfferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SupplyIte__Syppl__5EBF139D">
+    <End Role="SupplyOrder" Type="Self.SupplyOrder" Multiplicity="0..1" />
+    <End Role="SupplyItem" Type="Self.SupplyItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SupplyOrder">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SupplyItem">
+        <PropertyRef Name="SypplyOrderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SupplyOrd__Manag__5441852A">
+    <End Role="Worker" Type="Self.Worker" Multiplicity="0..1" />
+    <End Role="SupplyOrder" Type="Self.SupplyOrder" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Worker">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SupplyOrder">
+        <PropertyRef Name="ManagerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Worker__PersonId__2A4B4B5E">
+    <End Role="Person" Type="Self.Person" Multiplicity="0..1" />
+    <End Role="Worker" Type="Self.Worker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Worker">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Worker__TypeId__2B3F6F97">
+    <End Role="WorkerType" Type="Self.WorkerType" Multiplicity="0..1" />
+    <End Role="Worker" Type="Self.Worker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkerType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Worker">
+        <PropertyRef Name="TypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="AddMaterial" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TypeId" Type="int" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Price" Type="decimal" Mode="In" />
+    <Parameter Name="Quantity" Type="int" Mode="In" />
+    <Parameter Name="CountryId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CustomerId" Type="nvarchar" Mode="In" />
+    <Parameter Name="ManagerId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddPerson" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PersonName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PersonSurName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PersonPhoneNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="PersonEmail" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="AddProduct" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="OrderNumber" Type="int" Mode="In" />
+    <Parameter Name="EngeneerId" Type="int" Mode="In" />
+    <Parameter Name="ColorId" Type="int" Mode="In" />
+    <Parameter Name="Height" Type="int" Mode="In" />
+    <Parameter Name="Width" Type="int" Mode="In" />
+    <Parameter Name="ProfileId" Type="int" Mode="In" />
+    <Parameter Name="GlassId" Type="int" Mode="In" />
+    <Parameter Name="FurnitureId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddSalary" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="WorkerId" Type="int" Mode="In" />
+    <Parameter Name="Date" Type="date" Mode="In" />
+    <Parameter Name="Salary" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="AddToSupplyItem" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaterialId" Type="int" Mode="In" />
+    <Parameter Name="QuantityNeed" Type="int" Mode="In" />
+  </Function>
+  <Function Name="AddWorker" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PersonName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PersonSurName" Type="nvarchar" Mode="In" />
+    <Parameter Name="PersonPhoneNumber" Type="nvarchar" Mode="In" />
+    <Parameter Name="PersonEmail" Type="nvarchar" Mode="In" />
+    <Parameter Name="WorkerType" Type="nvarchar" Mode="In" />
+    <Parameter Name="PassWord" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="CalculateOrderPrice" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="OrderId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CalculateProductPrice" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProductId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="CreateSupplyOrder" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ManagerId" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GetFreeEngineer" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="EngineerId" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="GetMaterial" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaterialNeed" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="MaterialId" Type="int" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="Pay" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="PersonId" Type="int" Mode="In" />
+    <Parameter Name="OrderId" Type="int" Mode="In" />
+    <Parameter Name="Paid" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="SetMaterialList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ProductId" Type="int" Mode="In" />
+    <Parameter Name="MaterialId" Type="int" Mode="In" />
+    <Parameter Name="Quantity" Type="int" Mode="In" />
+  </Function>
+  <Function Name="WorkerIs" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="bit">
+    <Parameter Name="WorkerType" Type="int" Mode="In" />
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="WindowFactoryModelStoreContainer">
+    <EntitySet Name="Color" EntityType="Self.Color" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Country" EntityType="Self.Country" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Material" EntityType="Self.Material" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MaterialList" EntityType="Self.MaterialList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MaterialType" EntityType="Self.MaterialType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Offer" EntityType="Self.Offer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SalaryList" EntityType="Self.SalaryList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Storage" EntityType="Self.Storage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SupplyItem" EntityType="Self.SupplyItem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SupplyOrder" EntityType="Self.SupplyOrder" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Worker" EntityType="Self.Worker" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkerType" EntityType="Self.WorkerType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vMaterial" EntityType="Self.vMaterial" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vMaterial].[Id] AS [Id], 
+    [vMaterial].[MaterialTypeId] AS [MaterialTypeId], 
+    [vMaterial].[MaterialType] AS [MaterialType], 
+    [vMaterial].[Name] AS [Name], 
+    [vMaterial].[Price] AS [Price], 
+    [vMaterial].[Quantity] AS [Quantity], 
+    [vMaterial].[Country] AS [Country], 
+    [vMaterial].[QuantityType] AS [QuantityType]
+    FROM [dbo].[vMaterial] AS [vMaterial]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vSupplyItem" EntityType="Self.vSupplyItem" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vSupplyItem].[Id] AS [Id], 
+    [vSupplyItem].[Price] AS [Price], 
+    [vSupplyItem].[Quantity] AS [Quantity], 
+    [vSupplyItem].[CreationDate] AS [CreationDate], 
+    [vSupplyItem].[OfferId] AS [OfferId], 
+    [vSupplyItem].[SypplyOrderId] AS [SypplyOrderId], 
+    [vSupplyItem].[MaterialName] AS [MaterialName], 
+    [vSupplyItem].[MaterialTypeId] AS [MaterialTypeId], 
+    [vSupplyItem].[Name] AS [Name], 
+    [vSupplyItem].[CountryName] AS [CountryName], 
+    [vSupplyItem].[MaterialType] AS [MaterialType], 
+    [vSupplyItem].[QuantityType] AS [QuantityType]
+    FROM [dbo].[vSupplyItem] AS [vSupplyItem]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vWorker" EntityType="Self.vWorker" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vWorker].[Id] AS [Id], 
+    [vWorker].[Name] AS [Name], 
+    [vWorker].[Surname] AS [Surname], 
+    [vWorker].[PhoneNumber] AS [PhoneNumber], 
+    [vWorker].[Email] AS [Email], 
+    [vWorker].[WokerType] AS [WokerType], 
+    [vWorker].[PassWord] AS [PassWord]
+    FROM [dbo].[vWorker] AS [vWorker]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Material__Countr__48CFD27E" Association="Self.FK__Material__Countr__48CFD27E">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Material__Materi__47DBAE45" Association="Self.FK__Material__Materi__47DBAE45">
+      <End Role="MaterialType" EntitySet="MaterialType" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MaterialL__Mater__4E88ABD4" Association="Self.FK__MaterialL__Mater__4E88ABD4">
+      <End Role="Storage" EntitySet="Storage" />
+      <End Role="MaterialList" EntitySet="MaterialList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MaterialL__Produ__4F7CD00D" Association="Self.FK__MaterialL__Produ__4F7CD00D">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="MaterialList" EntitySet="MaterialList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Offer__MateriaId__5812160E" Association="Self.FK__Offer__MateriaId__5812160E">
+      <End Role="Material" EntitySet="Material" />
+      <End Role="Offer" EntitySet="Offer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Offer__SupplierI__571DF1D5" Association="Self.FK__Offer__SupplierI__571DF1D5">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Offer" EntitySet="Offer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order__CustomerI__31EC6D26" Association="Self.FK__Order__CustomerI__31EC6D26">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Order__ManagerId__32E0915F" Association="Self.FK__Order__ManagerId__32E0915F">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payment__OrderId__37A5467C" Association="Self.FK__Payment__OrderId__37A5467C">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payment__PayerId__38996AB5" Association="Self.FK__Payment__PayerId__38996AB5">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Payment" EntitySet="Payment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__ColorId__3E52440B" Association="Self.FK__Product__ColorId__3E52440B">
+      <End Role="Color" EntitySet="Color" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__Enginee__403A8C7D" Association="Self.FK__Product__Enginee__403A8C7D">
+      <End Role="Worker" EntitySet="Worker" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__OrderId__3F466844" Association="Self.FK__Product__OrderId__3F466844">
+      <End Role="Order" EntitySet="Order" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SalaryLis__Worke__2F10007B" Association="Self.FK__SalaryLis__Worke__2F10007B">
+      <End Role="Worker" EntitySet="Worker" />
+      <End Role="SalaryList" EntitySet="SalaryList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Storage__Materia__4BAC3F29" Association="Self.FK__Storage__Materia__4BAC3F29">
+      <End Role="Material" EntitySet="Material" />
+      <End Role="Storage" EntitySet="Storage" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SupplyIte__Mater__5AEE82B9" Association="Self.FK__SupplyIte__Mater__5AEE82B9">
+      <End Role="Material" EntitySet="Material" />
+      <End Role="SupplyItem" EntitySet="SupplyItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SupplyIte__Offer__5DCAEF64" Association="Self.FK__SupplyIte__Offer__5DCAEF64">
+      <End Role="Offer" EntitySet="Offer" />
+      <End Role="SupplyItem" EntitySet="SupplyItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SupplyIte__Syppl__5EBF139D" Association="Self.FK__SupplyIte__Syppl__5EBF139D">
+      <End Role="SupplyOrder" EntitySet="SupplyOrder" />
+      <End Role="SupplyItem" EntitySet="SupplyItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SupplyOrd__Manag__5441852A" Association="Self.FK__SupplyOrd__Manag__5441852A">
+      <End Role="Worker" EntitySet="Worker" />
+      <End Role="SupplyOrder" EntitySet="SupplyOrder" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Worker__PersonId__2A4B4B5E" Association="Self.FK__Worker__PersonId__2A4B4B5E">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Worker" EntitySet="Worker" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Worker__TypeId__2B3F6F97" Association="Self.FK__Worker__TypeId__2B3F6F97">
+      <End Role="WorkerType" EntitySet="WorkerType" />
+      <End Role="Worker" EntitySet="Worker" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

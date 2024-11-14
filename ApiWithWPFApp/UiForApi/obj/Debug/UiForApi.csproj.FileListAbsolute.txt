@@ -1,0 +1,92 @@
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csprojAssemblyReference.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\MainWindow.g.cs
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\App.g.cs
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi_MarkupCompile.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi_MarkupCompile.lref
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.exe.config
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.exe
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\MainWindow.baml
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.g.resources
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.Properties.Resources.resources
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.GenerateResource.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.CopyComplete
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.exe
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.AccessControl.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Permissions.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.AccessControl.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Permissions.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Principal.Windows.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.exe.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.exe
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\Newtonsoft.Json.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Net.Http.Formatting.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.AccessControl.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Permissions.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Principal.Windows.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\Newtonsoft.Json.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Net.Http.Formatting.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.AccessControl.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Permissions.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Principal.Windows.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csprojAssemblyReference.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\MainWindow.g.cs
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\App.g.cs
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi_MarkupCompile.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi_MarkupCompile.lref
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\MainWindow.baml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.g.resources
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.Properties.Resources.resources
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.GenerateResource.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.CoreCompileInputs.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.CopyComplete
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.exe
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.dll.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.exe.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.exe
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\UiForApi.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Permissions.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\UserSideModel.dll.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Permissions.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csprojAssemblyReference.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\MainWindow.g.cs
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\App.g.cs
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi_MarkupCompile.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi_MarkupCompile.lref
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\MainWindow.baml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.g.resources
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.Properties.Resources.resources
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.GenerateResource.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.CoreCompileInputs.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.csproj.CopyComplete
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.exe
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UiForApi\obj\Debug\UiForApi.pdb

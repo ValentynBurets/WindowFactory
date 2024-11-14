@@ -1,0 +1,233 @@
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\AppApiVN.dll.config
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\AppApiVN.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\AppApiVN.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.exe
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.exe.config
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.rsp
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.exe
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.exe.config
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.rsp
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.exe
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.exe.config
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.rsp
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\VBCSCompiler.exe
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Antlr3.Runtime.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Newtonsoft.Json.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Net.Http.Formatting.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Helpers.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.WebHost.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Mvc.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Optimization.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Razor.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Razor.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\WebGrease.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\EntityFramework.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.dll.config
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Newtonsoft.Json.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Net.Http.Formatting.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Helpers.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.WebHost.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Mvc.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Optimization.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.Razor.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Razor.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Antlr3.Runtime.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\EntityFramework.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csprojAssemblyReference.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csproj.CopyComplete
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\EntityFramework.SqlServer.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\EntityFramework.SqlServer.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Buffers.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Memory.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\Swashbuckle.Core.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\AppApiVN\bin\WebActivatorEx.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\AppApiVN.dll.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\AppApiVN.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\AppApiVN.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.exe
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.exe.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.rsp
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.exe
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.exe.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.rsp
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Buffers.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Collections.Immutable.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Memory.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Numerics.Vectors.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Reflection.Metadata.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.exe
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.exe.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.rsp
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\VBCSCompiler.exe
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\roslyn\VBCSCompiler.exe.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Antlr3.Runtime.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\EntityFramework.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\EntityFramework.SqlServer.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Microsoft.Web.Infrastructure.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Newtonsoft.Json.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Swashbuckle.Core.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Net.Http.Formatting.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Helpers.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.WebHost.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Mvc.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Optimization.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Razor.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Deployment.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Razor.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\WebActivatorEx.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\WebGrease.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.dll.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\EntityFramework.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\EntityFramework.SqlServer.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Newtonsoft.Json.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Net.Http.Formatting.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Helpers.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.WebHost.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Mvc.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Optimization.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.Razor.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Deployment.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Razor.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Antlr3.Runtime.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csprojAssemblyReference.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csproj.CoreCompileInputs.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csproj.CopyComplete
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\AutoMapper.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Ninject.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\AutoMapper.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\AppApiVN\bin\Ninject.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\AppApiVN.dll.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\AppApiVN.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\AppApiVN.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.exe
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.exe.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\csc.rsp
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.exe
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.exe.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\csi.rsp
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Buffers.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Memory.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.exe
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.exe.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\vbc.rsp
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\VBCSCompiler.exe
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Antlr3.Runtime.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\EntityFramework.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\EntityFramework.SqlServer.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Newtonsoft.Json.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Swashbuckle.Core.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Net.Http.Formatting.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Helpers.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.WebHost.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Mvc.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Optimization.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Razor.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Razor.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\WebActivatorEx.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\WebGrease.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\AutoMapper.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Ninject.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\CodeFirstDatabaseModel.dll.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\EntityFramework.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\EntityFramework.SqlServer.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Newtonsoft.Json.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Net.Http.Formatting.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Helpers.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Http.WebHost.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Mvc.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Optimization.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.Razor.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\System.Web.WebPages.Razor.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Antlr3.Runtime.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\AutoMapper.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\bin\Ninject.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csprojAssemblyReference.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csproj.CoreCompileInputs.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.csproj.CopyComplete
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\AppApiVN\obj\Debug\AppApiVN.pdb

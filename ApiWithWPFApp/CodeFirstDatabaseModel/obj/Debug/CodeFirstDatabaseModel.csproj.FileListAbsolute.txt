@@ -1,0 +1,56 @@
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.dll.config
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csprojAssemblyReference.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.CopyComplete
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.Migrations.InitialMigration.resources
+C:\Users\andri\source\repos\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.GenerateResource.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.dll.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\System.ComponentModel.Annotations.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csprojAssemblyReference.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.Migrations.InitialMigration.resources
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.GenerateResource.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.CoreCompileInputs.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.CopyComplete
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Castle.Core.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Castle.Core.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\AutoMapper.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Ninject.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\AutoMapper.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Ninject.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.dll.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\CodeFirstDatabaseModel.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\AutoMapper.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Castle.Core.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Ninject.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\AutoMapper.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Castle.Core.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\bin\Debug\Ninject.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csprojAssemblyReference.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.Migrations.InitialMigration.resources
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.GenerateResource.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.CoreCompileInputs.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.csproj.CopyComplete
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\CodeFirstDatabaseModel\obj\Debug\CodeFirstDatabaseModel.pdb

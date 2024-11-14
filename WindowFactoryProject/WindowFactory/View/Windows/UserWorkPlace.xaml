@@ -1,0 +1,136 @@
+﻿<Window x:Class="WindowFactory.View.Windows.UserWorkPlace"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowFactory.View.Windows"
+        xmlns:viewModels="clr-namespace:FisherPRO.ViewModel.Windows"    
+        
+        mc:Ignorable="d"
+        Title="UserWorkPlace" 
+        Height="1080" 
+        Width="1920" 
+        WindowStyle="None" 
+        WindowState="Maximized">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries >
+                <ResourceDictionary Source="../../View/Styles/AppStyles.xaml"/>
+                <ResourceDictionary Source="../../View/Resources/AppResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.12*"/>
+            <RowDefinition Height="0.88*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0"
+              Background="LightGray">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.85*"/>
+                <ColumnDefinition Width="0.15*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                <Button Style="{StaticResource MenuButtonStyle}" 
+                        Background="{x:Null}" 
+                        Foreground="{x:Null}"
+                        Command="{Binding ProfileOpenCommand}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\НУ ЛП\Курсова\Project\FisherPRO\Images/User.png" 
+                           Margin="25,2,0,0"/>
+
+                        <Label Style="{StaticResource LabelBaseStyle}" 
+                               FontSize="32"
+                               Content="{Binding LabelText}" 
+                               Margin="10,0,0,0"
+                               FontWeight="Bold"
+                               VerticalAlignment="Center"/>
+                    </StackPanel>
+                </Button>
+
+                <Rectangle Style="{StaticResource SlashMenuBars}"/>
+
+                <Button Style="{StaticResource MenuButtonStyle}" 
+                        Background="{x:Null}" 
+                        Foreground="{x:Null}"
+                        Visibility="{Binding GoodsOpenVisibility}"
+                        Command="{Binding GoodsOpenCommand}">
+                    <Label Style="{StaticResource LabelBaseStyle}" 
+                           FontSize="32"
+                           Content="Товари" 
+                           Margin="10,0,0,0"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+                </Button>
+
+                <Rectangle Style="{StaticResource SlashMenuBars}"
+                        Visibility="{Binding GoodsOpenVisibility}"/>
+                <Button Style="{StaticResource MenuButtonStyle}" 
+                        Background="{x:Null}" 
+                        Foreground="{x:Null}"
+                        Visibility="{Binding SuppliersOpenVisibility}"
+                        Command="{Binding SuppliersOpenCommand}">
+                    <Label Style="{StaticResource LabelBaseStyle}" 
+                           FontSize="32"
+                           Content="Постачальники" 
+                           Margin="10,0,0,0"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+                </Button>
+                <Rectangle Style="{StaticResource SlashMenuBars}"
+                        Visibility="{Binding SuppliersOpenVisibility}"/>
+                <Button Style="{StaticResource MenuButtonStyle}" 
+                        Background="{x:Null}" 
+                        Foreground="{x:Null}"
+                        Visibility="{Binding ContractsOpenVisibility}"
+                        Command="{Binding ContractsOpenCommand}">
+                    <Label Style="{StaticResource LabelBaseStyle}" 
+                           FontSize="32"
+                           Content="Контракти" 
+                           Margin="10,0,0,0"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+                </Button>
+                <Rectangle Style="{StaticResource SlashMenuBars}"
+                        Visibility="{Binding ContractsOpenVisibility}"/>
+                <Button Style="{StaticResource MenuButtonStyle}" 
+                        Visibility="{Binding EmployeesOpenVisibility}"
+                        Background="{x:Null}" 
+                        Foreground="{x:Null}"
+                        Command="{Binding EmployeesOpenCommand}">
+                    <Label Style="{StaticResource LabelBaseStyle}" 
+                           FontSize="32"
+                           Content="Працівники" 
+                           Margin="10,0,0,0"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center" />
+                </Button>
+            </StackPanel>
+
+            <WrapPanel FlowDirection="RightToLeft" Grid.Column="1">
+                <Button
+                    Content="✗"
+                    Height="35" 
+                    Width="35"
+                    Style="{StaticResource ResourceKey=ButtonBaseStyle}" 
+                    Click="Close_Window"/>
+
+                <Button
+                    Content="_" 
+                    Height="35" 
+                    Width="35"
+                    Style="{StaticResource ResourceKey=ButtonBaseStyle}"
+                    Click="Hide_Window"/>
+            </WrapPanel>
+        </Grid>
+
+        <Grid Grid.Row="1"
+              Background="White">
+            <ContentControl x:Name="UseWorkPlaceContent"
+                            Margin="20"/>
+        </Grid>
+    </Grid>
+</Window>

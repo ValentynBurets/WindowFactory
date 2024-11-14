@@ -1,0 +1,128 @@
+﻿<Window x:Class="WindowFactory.View.Windows.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        
+        xmlns:viewModels="clr-namespace:WindowFactory.ViewModel.Windows" 
+       
+        
+        Title="Welcome" 
+        Height="450" 
+        Width="800" 
+        ResizeMode="NoResize" 
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary >
+            <ResourceDictionary.MergedDictionaries >
+                <ResourceDictionary Source="../../View/Styles/AppStyles.xaml"/>
+                <ResourceDictionary Source="../../View/Resources/LoginWindow/UA_Lang.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="265*"/>
+            <ColumnDefinition Width="66*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.15*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.15*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="2"/>
+
+        <Grid Grid.Row="1" Grid.Column="2"
+                    Margin="20">
+            <Border CornerRadius="35" 
+                    BorderThickness="2" 
+                    BorderBrush="Black">
+                <StackPanel Margin="5">
+
+                    <Grid Margin="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.25*"/>
+                            <ColumnDefinition Width="0.60*"/>
+                            <ColumnDefinition Width="0.15*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Column="0" 
+                               FontFamily="Roboto" 
+                               FontSize="14"
+                               HorizontalAlignment="Center" 
+                               Content="{StaticResource res_Login}"/>
+
+                        <Border Grid.Column="1" 
+                                CornerRadius="20" 
+                                BorderThickness="1" 
+                                BorderBrush="Black">
+                            <TextBox 
+                                 FontFamily="Roboto"
+                                 FontSize="14"
+                                 Text="{Binding LoginText}"
+                                 VerticalContentAlignment="Center"
+                                 HorizontalContentAlignment="Center" 
+                                BorderBrush="{x:Null}" 
+                                Background="{x:Null}" 
+                                SelectionBrush="#FF83C8FF"
+                                BorderThickness="0"/>
+                        </Border>
+
+                        <Label Grid.Column="2" 
+                               FontFamily="Roboto"
+                               FontSize="14"
+                               Content="{Binding LoginStatusText}" 
+                               Foreground="{Binding LoginStatusColor}"/>
+                    </Grid>
+                    <Grid Margin="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.25*"/>
+                            <ColumnDefinition Width="0.60*"/>
+                            <ColumnDefinition Width="0.15*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="{StaticResource res_Password}" 
+                               FontFamily="Roboto"
+                               FontSize="14"
+                               HorizontalAlignment="Center"/>
+                        <Border Grid.Column="1" 
+                                CornerRadius="20" 
+                                BorderThickness="1" 
+                                BorderBrush="Black">
+                            <TextBox 
+                                 FontFamily="Roboto"
+                                 FontSize="14"
+                                 Text="{Binding PasswordText}"
+                                 VerticalContentAlignment="Center"
+                                 HorizontalContentAlignment="Center" 
+                                BorderBrush="{x:Null}" 
+                                Background="{x:Null}" 
+                                BorderThickness="0" 
+                                SelectionBrush="#FF83C8FF">
+                            </TextBox>
+                        </Border>
+
+                        <Label Grid.Column="2" 
+                               FontFamily="Roboto"
+                               FontSize="14"
+                               Content="{Binding PasswordStatusText}" 
+                               Foreground="{Binding PasswordStatusColor}"/>
+                    </Grid>
+
+                    <Button Content="{StaticResource res_CommitButton}" 
+                            Command="{Binding ButtonCommand}" 
+                            FontFamily="Roboto"
+                            FontSize="14"
+                            Grid.Column="1" 
+                            Width="200"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,47 @@
+﻿<Window x:Class="UiForApi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UiForApi"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="530.935" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.8*"/>
+            <RowDefinition Height="0.2*"/>
+        </Grid.RowDefinitions>
+        
+        
+        <DataGrid Grid.Column="0" ItemsSource="{Binding Students}" ></DataGrid>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Add"  Height="53" Width="50"  Command="{Binding AddCommand}"/>
+            <Button Grid.Column="1" Content="Delete "  Height="53" Width="50" Command="{Binding DeleteCommand}"/>
+
+        </Grid>
+
+
+        <StackPanel Grid.Column="1" x:Name="ItemTable" DataContext="{Binding Item  , UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" >
+            <TextBlock Text="Item"  />
+            <TextBlock Text="Id" />
+            <TextBox Text="{Binding StudentId, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Name" />
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="SurName" />
+            <TextBox Text="{Binding Surname, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBlock Text="Age" />
+            <TextBox Text="{Binding Age, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+
+    </Grid>
+</Window>

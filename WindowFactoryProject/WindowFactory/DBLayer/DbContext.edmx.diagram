@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7d92c66c995e49b38900950fbc167c00" Name="Diagram1">
+        <EntityTypeShape EntityType="WindowFactoryModel.Color" Width="1.5" PointX="3" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Country" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Material" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.MaterialList" Width="1.5" PointX="7.5" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.MaterialType" Width="1.5" PointX="1.5" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Offer" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Order" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Payment" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Person" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Product" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.SalaryList" Width="1.5" PointX="8.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Storage" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.SupplyItem" Width="1.5" PointX="10.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.SupplyOrder" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.Worker" Width="1.5" PointX="6" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.WorkerType" Width="1.5" PointX="3.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.vMaterial" Width="1.5" PointX="5.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.vSupplyItem" Width="1.5" PointX="7.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WindowFactoryModel.vWorker" Width="1.5" PointX="9.75" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Product__ColorId__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Material__Countr__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Material__Materi__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Offer__MateriaId__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Storage__Materia__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__SupplyIte__Mater__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__MaterialL__Mater__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__MaterialL__Produ__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Offer__SupplierI__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__SupplyIte__Offer__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Order__CustomerI__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Order__ManagerId__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Payment__OrderId__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Product__OrderId__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Payment__PayerId__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Worker__PersonId__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Product__Enginee__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__SalaryLis__Worke__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__SupplyIte__Syppl__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__SupplyOrd__Manag__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="WindowFactoryModel.FK__Worker__TypeId__2B3F6F97" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

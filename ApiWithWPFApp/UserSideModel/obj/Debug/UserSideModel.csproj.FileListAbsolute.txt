@@ -1,0 +1,32 @@
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csproj.CoreCompileInputs.cache
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.pdb
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csproj.CopyComplete
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.dll
+C:\Users\andri\source\repos\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\Newtonsoft.Json.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\Newtonsoft.Json.xml
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csprojAssemblyReference.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csproj.CoreCompileInputs.cache
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csproj.CopyComplete
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.pdb
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.dll.config
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\System.Net.Http.Formatting.dll
+D:\TERM 3.1\kpz\Ekz\ApiWithWPFApp\UserSideModel\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.dll.config
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\UserSideModel.pdb
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csprojAssemblyReference.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csproj.CoreCompileInputs.cache
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.csproj.CopyComplete
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.dll
+C:\Users\Valentyn\study\TERM 3.2\BdCourseWork\ApiWithWPFApp\UserSideModel\obj\Debug\UserSideModel.pdb

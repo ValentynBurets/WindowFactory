@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|c:\\users\\valen\\source\\repos\\windowfactory\\windowfactoryproject\\windowfactory\\windowfactory\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|solutionrelative:windowfactory\\model\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|c:\\users\\valen\\source\\repos\\windowfactory\\windowfactoryproject\\windowfactory\\windowfactory\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|solutionrelative:windowfactory\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|c:\\users\\valen\\source\\repos\\windowfactory\\windowfactoryproject\\windowfactory\\windowfactory\\model\\materialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|solutionrelative:windowfactory\\model\\materialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|c:\\users\\valen\\source\\repos\\windowfactory\\windowfactoryproject\\windowfactory\\windowfactory\\dblayer\\dbcontext.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|solutionrelative:windowfactory\\dblayer\\dbcontext.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|c:\\users\\valen\\source\\repos\\windowfactory\\windowfactoryproject\\windowfactory\\windowfactory\\command\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE047E70-4ED5-446A-BFE1-0E5A997720D5}|WindowFactory\\WindowFactory.csproj|solutionrelative:windowfactory\\command\\deletecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Model\\Person.cs",
+              "RelativeDocumentMoniker": "WindowFactory\\Model\\Person.cs",
+              "ToolTip": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Model\\Person.cs",
+              "RelativeToolTip": "WindowFactory\\Model\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:34:23.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Model\\OrderModel.cs",
+              "RelativeDocumentMoniker": "WindowFactory\\Model\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Model\\OrderModel.cs",
+              "RelativeToolTip": "WindowFactory\\Model\\OrderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:34:21.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaterialModel.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Model\\MaterialModel.cs",
+              "RelativeDocumentMoniker": "WindowFactory\\Model\\MaterialModel.cs",
+              "ToolTip": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Model\\MaterialModel.cs",
+              "RelativeToolTip": "WindowFactory\\Model\\MaterialModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:34:20.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbContext.Context.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\DBLayer\\DbContext.Context.cs",
+              "RelativeDocumentMoniker": "WindowFactory\\DBLayer\\DbContext.Context.cs",
+              "ToolTip": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\DBLayer\\DbContext.Context.cs",
+              "RelativeToolTip": "WindowFactory\\DBLayer\\DbContext.Context.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:32:46.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteCommand.cs",
+              "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Command\\DeleteCommand.cs",
+              "RelativeDocumentMoniker": "WindowFactory\\Command\\DeleteCommand.cs",
+              "ToolTip": "C:\\Users\\valen\\source\\repos\\WindowFactory\\WindowFactoryProject\\WindowFactory\\WindowFactory\\Command\\DeleteCommand.cs",
+              "RelativeToolTip": "WindowFactory\\Command\\DeleteCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T12:32:36.275Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

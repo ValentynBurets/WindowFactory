@@ -1,0 +1,8 @@
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\WindowFactory.csprojAssemblyReference.cache
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\MainWindow.g.cs
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\View\Windows\Welcome.g.cs
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\App.g.cs
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\WindowFactory_Content.g.cs
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\WindowFactory_MarkupCompile.cache
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\WindowFactory_MarkupCompile.lref
+C:\Users\Valentyn\study\TERM3.2\BdCourseWork\WindowFactoryProject\WindowFactory\WindowFactory\obj\Debug\View\Styles\AppStyles.baml
